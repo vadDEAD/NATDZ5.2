@@ -2,7 +2,6 @@ package ru.netology;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
@@ -11,7 +10,7 @@ import static ru.netology.DataGenerator.Registration.getRegisteredUser;
 import static ru.netology.DataGenerator.Registration.getUser;
 import static ru.netology.DataGenerator.getRandomLogin;
 import static ru.netology.DataGenerator.getRandomPassword;
-public class loginTest {
+public class LoginTest {
     @BeforeEach
     void setup() {
         open("http://localhost:9999/");
